@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE DEX_root>
+
+<DEXroot version="0.0">
+  <CreationDate>2009-03-16 22:26:25</CreationDate>
+  <DiskImage MD5Sum="6aa7dd7aa21061cca79e1d85cc1a8450">
+    <Filename>disk-image</Filename>
+  </DiskImage>
+  <PartitionTable ParentPtr="/DEXroot/DiskImage[@MD5Sum=&quot;6aa7dd7aa21061cca79e1d85cc1a8450&quot;]">
+    <SectorSize>512</SectorSize>
+    <Offset>0</Offset>
+    <Version>Darwin 9.6.0 Darwin Kernel Version 9.6.0: Mon Nov 24 17:37:00 PST 2008; root:xnu-1228.9.59~1/RELEASE_I386 i386</Version>
+    <CommandLine>fdisk -d disk-image</CommandLine>
+    <Volume>
+      <StartSector>63</StartSector>
+      <EndSector>32129</EndSector>
+      <Description />
+      <Type>7</Type>
+    </Volume>
+  </PartitionTable>
+</DEXroot>
+
